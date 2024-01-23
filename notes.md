@@ -12,3 +12,8 @@ git commit: commits the changes made. You get to add a message to it
 git commit -am "your comment goes here"
 
 git push: pushes the changes to GitHub
+
+
+## AWS Assignment
+*Command to remote into server: ssh -i [path-file] ubuntu@[ip-address]
+*Server IP: http://52.207.215.80/
