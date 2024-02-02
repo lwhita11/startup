@@ -17,3 +17,19 @@ git push: pushes the changes to GitHub
 ## AWS Assignment
 *Command to remote into server: ssh -i [path-file] ubuntu@[ip-address]
 *Server IP: http://52.207.215.80/
+
+
+## HTML Assignment
+Look in the code to see how to make each one
+<h1>Landon Whitaker</h1> 
+^^ creates a header
+<div><a href="BYU.edu">BYU</a></div> 
+^^ creates a hyperlink
+  <ul>
+        <li>apples</li> 
+        <li>bananas</li>
+        <li>oranges</li>
+      </ul>   
+^^ ul is an unordered list, li gets the elements of the list /ul ends the list
+<p><img src="https://img.buzzfeed.com/buzzfeed-static/complex/images/Y19jcm9wLGhfMTY4MSx3XzI5ODgseF8xMSx5Xzcy/ccxzyc8kzae1lhun8imc/justin-jefferson-griddy-dance.jpg?downsize=1840:*&output-format=auto&output-quality=auto" width = "300" height = "200"></p> 
+^^ creates an image of a man griddying
