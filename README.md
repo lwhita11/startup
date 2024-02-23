@@ -19,3 +19,13 @@ I will use the following technologies in the following way:
 - HTTPS - Enables secure login.
 - DB - Stores login information and best scores.
 - WebSocket Data - As users get better scores, the highest scores are. broadcasted on the leaderboards page live.
+
+## HTML deliverable
+For this deliverable I built out the structure of my application using HTML.
+
+HTML pages - Three HTML page that represent the ability to login, play the game, and view a leaderboard of scores.
+Links - The login page automatically links to the play page and the scorebaord page. The scoreboard and play pages also have links to one another.
+Text - There is textual data in the title and in the leaderboards.
+Images - I imported several pictures of fruit to go along with the theme of Fruity Pairs Fiesta! I included them both in the play page and on the home page.
+DB/Login - Input box and submit button for login. The login information will pull from a database of the users.
+WebSocket - The leaderboard will provide live updates with WebSocket data.
