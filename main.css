@@ -2,82 +2,88 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to bottom, #e6b0b0, #96cee0, #8fe69e);
 }
 
-/* Apply styles to the header */
 header {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0;*/
+    /* background: linear-gradient(to bottom, #e6b0b0, #96cee0); */
+    background-color: transparent;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 20px;
     text-align: center;
-    position: relative; /* Required for absolute positioning of images */
+    position: relative;
 }
 
-/* Apply styles to the header h1 */
 header h1 {
     margin: 0;
+    font-size: 72px;
 }
 
-/* Apply styles to the header nav */
+
 header nav {
     margin-top: 20px;
 }
 
-/* Apply styles to the header nav menu */
+
 header nav menu {
     list-style-type: none;
     padding: 0;
 }
 
-/* Apply styles to the header nav menu li */
+
 header nav menu li {
     display: inline;
     margin-right: 10px;
 }
 
-/* Apply styles to the header nav menu li a */
+
 header nav menu li a {
     text-decoration: none;
     color: #333;
 }
 
-/* Apply styles to the images */
+
 header img {
     position: relative; /* Adjust position relative to the parent */
     margin: 0 70px; /* Adjust spacing between images */
 }
 
-/* Apply styles to the main content */
+
 main {
     margin: 20px;
 }
 
-/* Apply styles to the main content p */
+
 main p {
     margin-bottom: 10px;
 }
 
-/* Apply styles to the main content form */
+
 main form {
     margin-bottom: 20px;
 }
 
-/* Apply styles to the main content form label */
+
 main form label {
     display: block;
     margin-bottom: 5px;
 }
 
-/* Apply styles to the main content form input */
+
 main form input {
     width: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
 
-/* Apply styles to the main content form button */
 main form button {
     width: 100%;
     padding: 10px;
@@ -89,18 +95,17 @@ main form button {
     transition: background-color 0.3s ease;
 }
 
-/* Apply styles to the main content form button:hover */
+
 main form button:hover {
     background-color: #0056b3;
 }
 
-/* Apply styles to the main content anchor */
 main a {
     text-decoration: none;
     color: #007bff;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     header img {
         display: none;
     }
