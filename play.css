@@ -38,19 +38,28 @@ button {
     font-size: 16px;
     margin: 10px;
     position: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.timer {
+    align-items: end;
+    font-size: 25px;
 }
 
 button:hover {
     background-color: #006600;
 }
-
+.game-container {
+    max-width: 1400px
+}
 /* Styling the game cards */
 .card {
     width: 120px;
     height: 150px;
     background-color: #9b45e0;
     border: 1px solid #000;
-    display: inline-flexbox;
+    display: inline;
     margin: 5px;
     text-align: center;
     line-height: 120px;
