@@ -1,0 +1,65 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Madimi One', sans-serif;
+    background: linear-gradient(to bottom, #e6b0b0, #96cee0, #8fe69e);
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Title style */
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Navigation style */
+nav menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main header {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
