@@ -3,9 +3,6 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
-h2 {
-    text-align: center;
-}
 
 body {
     background: linear-gradient(to bottom, #8fe69e, #96cee0, #e6b0b0);
@@ -57,7 +54,7 @@ button {
 
 p.timer {
     align-items: end;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Madimi One", sans-serif;
 }
 
