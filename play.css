@@ -3,15 +3,18 @@ body, h1, h2, p, ul {
     padding: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 body {
     background: linear-gradient(to bottom, #8fe69e, #96cee0, #e6b0b0);
+    align-items: center;
 }
-/* Centering the heading */
 div {
     text-align: center;
 }
 
-/* Styling the heading */
 h1 {
     font-family: "Madimi One", sans-serif;
     color: #009900;
@@ -20,7 +23,6 @@ h1 {
     font-size: 72px;
 }
 
-/* Styling the game container */
 .game-container {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +58,7 @@ button {
 p.timer {
     align-items: end;
     font-size: 25px;
+    font-family: "Madimi One", sans-serif;
 }
 
 .timer {
@@ -88,7 +91,7 @@ button:hover {
 .game-container {
     max-width: 1400px
 }
-/* Styling the game cards */
+
 .card {
     width: 120px;
     height: 150px;
@@ -105,7 +108,6 @@ button.card:hover{
     background-color: lightblue;
 }
 
-/* Styling the navigation */
 nav {
     text-align: center;
     margin-top: 20px;
