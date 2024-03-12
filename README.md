@@ -29,3 +29,13 @@ Text - There is textual data in the title and in the leaderboards.
 Images - I imported several pictures of fruit to go along with the theme of Fruity Pairs Fiesta! I included them both in the play page and on the home page.
 DB/Login - Input box and submit button for login. The login information will pull from a database of the users.
 WebSocket - The leaderboard will provide live updates with WebSocket data.
+
+## CSS deliverable
+For this deliverable I properly styled the application into its final appearance.
+
+Header, footer, and main content body
+Navigation elements - I dropped the underlines and put them at convenient locations and changed the hover color
+Responsive to window resizing - My app looks great on all window sizes and devices, the images disappear if the window is too small, and the buttons go into different sizes of rows/columns so it will fit the screen
+Application elements - Used good contrast and whitespace
+Application text content - Consistent fonts
+Application images - They size and are removed if the window is too small. Good icons

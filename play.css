@@ -27,6 +27,17 @@ h1 {
     justify-content: center;
     margin-top: 20px;
 }
+p.seconds {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin-bottom: 20px;
+  }
 
 button {
     padding: 10px 20px;
@@ -45,6 +56,30 @@ button {
 p.timer {
     align-items: end;
     font-size: 25px;
+}
+
+.timer {
+    font-family: "Madimi One", sans-serif;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #009900;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.timer span {
+    display: inline-block;
+    min-width: 40px;
+    padding: 5px;
+    background-color: #fff;
+    color: #009900;
+    border-radius: 5px;
+    margin: 0 5px;
 }
 
 button:hover {
@@ -97,3 +132,4 @@ nav a:hover {
         display: none;
     }
 }
+
