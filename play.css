@@ -90,3 +90,10 @@ nav a {
 nav a:hover {
     color: #ff4500;
 }
+
+
+@media (max-width: 1200px) {
+    body img {
+        display: none;
+    }
+}
